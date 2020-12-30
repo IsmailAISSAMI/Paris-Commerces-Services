@@ -2,13 +2,10 @@ package com.example.maps;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.preference.Preference;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,9 +14,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.maps.models.ApiCommerces;
+import com.example.maps.utils.Constant;
+import com.example.maps.utils.FastDialog;
+import com.example.maps.utils.Network;
 import com.google.gson.Gson;
-import com.squareup.picasso.Callback;
-import com.squareup.picasso.Picasso;
 
 public class InformationActivity extends AppActivity {
     private EditText editTextCity;

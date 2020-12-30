@@ -1,10 +1,12 @@
-package com.example.maps;
+package com.example.maps.utils;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
+
+import com.example.maps.R;
 
 public class FastDialog {
 

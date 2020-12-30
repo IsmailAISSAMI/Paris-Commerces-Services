@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Commerces Paris</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_favoris">Favoris</string>
+    <string name="title_activity_information">Information</string>
     <string name="ok" />
     <string name="cancel" />
     <string name="marker">Marker in Paris</string>
+    <string name="favoris">Favoris</string>
 </resources>

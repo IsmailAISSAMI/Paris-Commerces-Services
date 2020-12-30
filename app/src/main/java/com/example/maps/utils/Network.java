@@ -1,4 +1,4 @@
-package com.example.maps;
+package com.example.maps.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
